@@ -1,0 +1,11 @@
+# Ignore configuration files that may contain sensitive information.
+.idea/*
+sites/*/settings*.php
+.htaccess
+sites/default/services.yml
+# Ignore paths that contain user-generated content.
+sites/*/files
+sites/*/private
+themes/violan/less/node_modules/*
+# Ignore private code
+libraries/juicebox/*
