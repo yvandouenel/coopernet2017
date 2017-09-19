@@ -12,13 +12,17 @@ regions:
   navigation: 'Navigation'
   navigation_collapsible: 'Navigation (Collapsible)'
   help: 'Help'
-  content: 'Content'
   highlighted: 'Highlighted'
+  content: 'Content'
   sidebar_first: 'Primary'
   sidebar_second: 'Secondary'
+  col_first: 'First column'
+  col_second: 'Second column'
+  col_third: 'Third column'
+  clients: 'Clients'
   footer: 'Footer'
   page_top: 'Page top'
-  clients: 'Clients'
+
   page_bottom: 'Page bottom'
 
 libraries:
