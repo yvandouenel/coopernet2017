@@ -1,0 +1,25 @@
+langcode: fr
+status: true
+dependencies:
+  config:
+    - contact.form.personal
+    - field.storage.node.field_contact
+    - node.type.formation
+id: node.formation.field_contact
+field_name: field_contact
+entity_type: node
+bundle: formation
+label: Contact
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    target_uuid: 1ce1da4f-c05d-44b8-bea8-eb773279ac7f
+default_value_callback: ''
+settings:
+  handler: 'default:contact_form'
+  handler_settings:
+    target_bundles: null
+    auto_create: false
+field_type: entity_reference
