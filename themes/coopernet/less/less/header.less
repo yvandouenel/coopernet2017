@@ -8,7 +8,8 @@
   }
 
   #logo-and-baseline {
-    padding-top: 45px;
+    padding-top: 25px;
+    padding-bottom: 20px;
     display: table;
     @media screen and (max-width: @screen-phone){
       display: block;
@@ -121,6 +122,9 @@
       padding-left: 0;
     }
     ul.menu {
+      > li > ul > li a{
+        display: block;
+      }
       display: table;
       margin: 0 auto;
       float: none;
@@ -139,7 +143,7 @@
 
           @media screen and (min-width: @screen-lg) {
             padding: 15px 42px;
-            margin-right: 70px;
+            margin-right: 60px;
           }
           @media screen and (max-width: @screen-lg) and (min-width: @screen-md) {
             padding: 15px 30px;
@@ -191,6 +195,9 @@
 ul.menu {
   .open > a, .open > a:focus, .open > a:hover {
     background-color: black;
+  }
+  .dropdown-menu{
+    background-color: transparent !important;
   }
   .dropdown-submenu {
     position: relative;
