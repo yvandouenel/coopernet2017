@@ -92,6 +92,32 @@ view_mode ? view_mode|clean_class,
             </div>
         </footer>
     {% endif %}
+    <div class="row row-eq-height">
+        <div class="col-md-3">
+            <div class="panel panel-default">
+            <h3>Coût</h3>
+            <p>{{ content.field_training_price }}</p>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="panel panel-default">
+            <h3>Lieu</h3>
+            <p>{{ content.field_training_place }}</p>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="panel panel-default">
+                <h3>Prochaine session</h3>
+                <p>{{ content.field_training_next_session }}</p>
+            </div>
+        </div>
+        <div class="col-md-2">
+            <div class="panel panel-default">
+                <h3>Durée</h3>
+                <p>{{ content.field_training_duration }}</p>
+            </div>
+        </div>
+    </div>
     <div class="row row-two-cols">
         <div class="col-md-7">
             {{ content.field_training_summary }}
