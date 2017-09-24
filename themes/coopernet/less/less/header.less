@@ -121,7 +121,14 @@
     @media screen and (min-width: @screen-sm) and (max-width: @screen-md){
       padding-left: 0;
     }
+
     ul.menu {
+      > li:last-child{
+        a{
+          margin-right: 0 !important;
+        }
+
+      }
       > li > ul > li a{
         display: block;
       }
@@ -166,11 +173,7 @@
           }
         }
       }
-      li:last-child {
-        a {
-          margin-right: 0 !important;
-        }
-      }
+
     }
   }
   @media @mobile {

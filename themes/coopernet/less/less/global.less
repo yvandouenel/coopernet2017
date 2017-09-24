@@ -70,6 +70,15 @@ img {
   &.formateur:before {
     content: "\f0e6";
   }
+  &.video:before {
+    content: "\e81c";
+  }
+  &.important:before {
+    content: "\e859";
+  }
+  &.people:before {
+    content: "\e81b";
+  }
 }
 
 .icon-mail {
@@ -103,7 +112,6 @@ form.contact-message-feedback-form {
     display: none;
   }
 }
-
 #edit-submit {
   background-color: @rouge-coopernet;
   color: white;
@@ -121,4 +129,8 @@ form.contact-message-feedback-form {
   margin: 0 auto;
   padding: 10px 30px;
 }
-
+.row-eq-height .panel{
+  min-height: 148px;
+  padding: 0 20px 20px 20px;
+  margin-bottom: 20px;
+}
