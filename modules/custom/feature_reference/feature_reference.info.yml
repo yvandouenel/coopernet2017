@@ -3,7 +3,6 @@ type: module
 core: 8.x
 dependencies:
   - draggableviews
-  - ds
   - field
   - image
   - juicebox
