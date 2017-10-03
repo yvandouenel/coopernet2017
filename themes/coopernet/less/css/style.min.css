@@ -1587,6 +1587,7 @@ h1,h2,h3,h4{font-family:'Bree Serif',serif}
 .padding-fifty{padding:50px!important}
 .align-left{margin-right:20px}
 .align-right{margin-left:20px}
+.main-container{padding-bottom:30px}
 body.page-node-7 h2.page-header{min-height:90px}
 @media (min-width:992px){body.page-node-7 h2.page-header{padding-right:200px;font-size:3em}
 }
