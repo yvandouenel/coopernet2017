@@ -7,6 +7,7 @@ dependencies:
     - field.field.node.article.body
     - field.field.node.article.comment
     - field.field.node.article.field_image
+    - field.field.node.article.field_referencement
     - field.field.node.article.field_tags
     - image.style.large
     - node.type.article
@@ -59,4 +60,5 @@ content:
     settings: {  }
     third_party_settings: {  }
 hidden:
+  field_referencement: true
   langcode: true

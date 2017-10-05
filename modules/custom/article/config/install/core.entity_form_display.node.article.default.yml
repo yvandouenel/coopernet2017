@@ -12,7 +12,6 @@ dependencies:
   module:
     - comment
     - image
-    - metatag
     - path
     - text
 id: node.article.default
@@ -49,12 +48,6 @@ content:
       progress_indicator: throbber
       preview_image_style: thumbnail
     third_party_settings: {  }
-  field_referencement:
-    weight: 31
-    settings: {  }
-    third_party_settings: {  }
-    type: metatag_firehose
-    region: content
   field_tags:
     type: entity_reference_autocomplete_tags
     weight: 3
@@ -104,4 +97,5 @@ content:
       size: 60
       placeholder: ''
     third_party_settings: {  }
-hidden: {  }
+hidden:
+  field_referencement: true
