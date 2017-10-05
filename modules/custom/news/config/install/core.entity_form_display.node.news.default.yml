@@ -7,10 +7,12 @@ dependencies:
     - field.field.node.news.field_news_summary
     - field.field.node.news.field_news_type
     - field.field.node.news.field_news_url_redirect
+    - field.field.node.news.field_referencement
     - image.style.thumbnail
     - node.type.news
   module:
     - image
+    - metatag
     - path
     - text
 id: node.news.default
@@ -65,6 +67,12 @@ content:
       placeholder: ''
     third_party_settings: {  }
     type: string_textfield
+    region: content
+  field_referencement:
+    weight: 27
+    settings: {  }
+    third_party_settings: {  }
+    type: metatag_firehose
     region: content
   langcode:
     type: language_select

@@ -7,9 +7,11 @@ dependencies:
     - field.field.node.news.field_news_summary
     - field.field.node.news.field_news_type
     - field.field.node.news.field_news_url_redirect
+    - field.field.node.news.field_referencement
     - node.type.news
   module:
     - image
+    - metatag
     - text
     - user
 id: node.news.default
@@ -55,6 +57,13 @@ content:
       link_to_entity: false
     third_party_settings: {  }
     type: string
+    region: content
+  field_referencement:
+    weight: 106
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: metatag_empty_formatter
     region: content
   links:
     weight: 100
