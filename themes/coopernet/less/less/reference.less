@@ -12,17 +12,40 @@
 /* Vue views **********************************************************************************************************/
 .path-references{
   .views-row {
+    position: relative;
     margin-bottom: 30px;
-  }
-  .views-field-title{
-    text-align: center;
-    a{
-      display: block;
-      color: @violet-coopernet;
-      font-family: 'Bree Serif', serif;
-      font-size: 2em;
+    min-height: 200px;
+    img {
+
+      -webkit-transition: all 1s ease;
+      -moz-transition: all 1s ease;
+      -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+      transition: all 1s ease;
+      margin-bottom: 30px;
+      border: 5px solid white;
+      &:hover {
+        border: 5px solid @vert-fonce-coopernet;
+        border-radius: 50%;
+      }
+    }
+    .views-field-title{
+      text-align: center;
+      width: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      background-color: rgba(255, 255, 255, 0.9);
+      a{
+        display: block;
+        color: @noir-coopernet;
+        font-family: 'Bree Serif', serif;
+        padding: 10px;
+        font-size: 1.2em;
+      }
     }
   }
+  
 }
 /* Références dans un bloc de vue *************************************************************************************/
 .block-views-blockreferences-block-reference{
