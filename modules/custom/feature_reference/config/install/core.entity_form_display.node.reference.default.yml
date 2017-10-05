@@ -5,11 +5,13 @@ dependencies:
     - field.field.node.reference.body
     - field.field.node.reference.field_gallerie_images
     - field.field.node.reference.field_prestation
+    - field.field.node.reference.field_referencement
     - field.field.node.reference.field_type_de_client
     - image.style.thumbnail
     - node.type.reference
   module:
     - image_widget_crop
+    - metatag
     - path
     - text
 id: node.reference.default
@@ -54,6 +56,12 @@ content:
       placeholder: ''
     third_party_settings: {  }
     type: entity_reference_autocomplete
+    region: content
+  field_referencement:
+    weight: 35
+    settings: {  }
+    third_party_settings: {  }
+    type: metatag_firehose
     region: content
   field_type_de_client:
     weight: 34

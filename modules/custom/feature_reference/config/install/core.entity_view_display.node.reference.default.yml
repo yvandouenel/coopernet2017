@@ -5,12 +5,14 @@ dependencies:
     - field.field.node.reference.body
     - field.field.node.reference.field_gallerie_images
     - field.field.node.reference.field_prestation
+    - field.field.node.reference.field_referencement
     - field.field.node.reference.field_type_de_client
     - image.style.large
     - node.type.reference
   module:
     - ds
     - image
+    - metatag
     - text
     - user
 id: node.reference.default
@@ -43,6 +45,13 @@ content:
       link: true
     third_party_settings: {  }
     type: entity_reference_label
+    region: content
+  field_referencement:
+    weight: 105
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: metatag_empty_formatter
     region: content
   field_type_de_client:
     weight: 104

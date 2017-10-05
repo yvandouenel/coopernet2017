@@ -10,6 +10,7 @@ dependencies:
   - juicebox
   - language
   - menu_ui
+  - metatag
   - node
   - path
   - taxonomy
