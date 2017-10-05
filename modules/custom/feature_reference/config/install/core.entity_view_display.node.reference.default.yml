@@ -6,10 +6,11 @@ dependencies:
     - field.field.node.reference.field_gallerie_images
     - field.field.node.reference.field_prestation
     - field.field.node.reference.field_type_de_client
+    - image.style.large
     - node.type.reference
   module:
     - ds
-    - juicebox
+    - image
     - text
     - user
 id: node.reference.default
@@ -28,36 +29,12 @@ content:
     weight: 102
     label: hidden
     settings:
-      image_style: ''
-      thumb_style: juicebox_square_thumb
-      caption_source: ''
-      title_source: ''
-      jlib_galleryWidth: 100%
-      jlib_galleryHeight: 450px
-      jlib_backgroundColor: '#222222'
-      jlib_textColor: 'rgba(255,255,255,1)'
-      jlib_thumbFrameColor: 'rgba(255,255,255,.5)'
-      jlib_showOpenButton: true
-      jlib_showExpandButton: true
-      jlib_showThumbsButton: true
-      manual_config: ''
-      incompatible_file_action: show_icon_and_link
-      linkurl_source: ''
-      linkurl_target: _blank
-      custom_parent_classes: ''
-      jlib_useFullscreenExpand: '0'
-      jlib_useThumbDots: false
-      apply_markup_filter: true
+      image_style: large
+      image_link: ''
     third_party_settings:
       ds:
         ds_limit: ''
-        ft:
-          id: default
-          settings:
-            lb: ''
-            lb-col: false
-            classes: {  }
-    type: juicebox_formatter
+    type: image
     region: content
   field_prestation:
     weight: 103

@@ -28,13 +28,7 @@ content:
       image_link: content
     third_party_settings:
       ds:
-        ds_limit: '0'
-        ft:
-          id: default
-          settings:
-            lb: ''
-            lb-col: false
-            classes: {  }
+        ds_limit: ''
 hidden:
   body: true
   field_prestation: true
