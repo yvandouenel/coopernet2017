@@ -14,7 +14,10 @@ label: Lieu
 description: ''
 required: false
 translatable: false
-default_value: {  }
+default_value:
+  -
+    value: "<ul>\r\n\t<li><a href=\"/contact\">A Crealead, 55 rue Saint Cléophas - &nbsp;34070&nbsp;Montpellier</a></li>\r\n\t<li>Dans vos locaux (Paris, Lyon, Toulouse ...)</li>\r\n</ul>\r\n"
+    format: full_html
 default_value_callback: ''
 settings: {  }
 field_type: text_long

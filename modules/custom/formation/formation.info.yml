@@ -3,10 +3,13 @@ description: 'Provides Formation type de contenu and related configuration. '
 type: module
 core: 8.x
 dependencies:
+  - draggableviews
   - field
   - language
   - menu_ui
+  - metatag
   - node
   - path
   - text
   - user
+  - views

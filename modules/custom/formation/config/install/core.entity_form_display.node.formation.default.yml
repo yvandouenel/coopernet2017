@@ -4,6 +4,7 @@ dependencies:
   config:
     - field.field.node.formation.body
     - field.field.node.formation.field_contact
+    - field.field.node.formation.field_referencement
     - field.field.node.formation.field_training_duration
     - field.field.node.formation.field_training_next_session
     - field.field.node.formation.field_training_place
@@ -11,6 +12,7 @@ dependencies:
     - field.field.node.formation.field_training_summary
     - node.type.formation
   module:
+    - metatag
     - path
     - text
 id: node.formation.default
@@ -41,6 +43,12 @@ content:
       placeholder: ''
     third_party_settings: {  }
     type: entity_reference_autocomplete
+    region: content
+  field_referencement:
+    weight: 27
+    settings: {  }
+    third_party_settings: {  }
+    type: metatag_firehose
     region: content
   field_training_duration:
     weight: 5

@@ -2,7 +2,7 @@ langcode: fr
 status: true
 dependencies:
   config:
-    - contact.form.personal
+    - contact.form.feedback
     - field.storage.node.field_contact
     - node.type.formation
 id: node.formation.field_contact
@@ -15,7 +15,7 @@ required: false
 translatable: true
 default_value:
   -
-    target_uuid: 1ce1da4f-c05d-44b8-bea8-eb773279ac7f
+    target_uuid: 7033e54e-6c2c-484d-a666-e2c2652585c7
 default_value_callback: ''
 settings:
   handler: 'default:contact_form'
