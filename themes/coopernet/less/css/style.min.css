@@ -1800,9 +1800,10 @@ body.page-node-8 h2.page-header{padding-left:100px;background:url(../images/icon
 .field--name-field-prestation .field--label:after,.field--name-field-type-de-client .field--label:after{content:' : '}
 .path-references .views-row{position:relative;margin-bottom:30px;min-height:200px}
 .path-references .views-row img{-webkit-transition:all 1s ease;-moz-transition:all 1s ease;-o-transition:all 1s ease;-ms-transition:all 1s ease;transition:all 1s ease;margin-bottom:30px;border:5px solid #fff}
-.path-references .views-row img:hover{border:5px solid #73941b;border-radius:50%}
-.path-references .views-row .views-field-title{text-align:center;width:100%;position:absolute;top:0;left:0;background-color:rgba(255,255,255,.9)}
+.path-references .views-row .views-field-title{text-align:center;width:97.5%;position:absolute;top:0;left:5px;background-color:rgba(255,255,255,.9);border-bottom:5px solid #73941b}
 .path-references .views-row .views-field-title a{display:block;color:#2d2a25;font-family:'Bree Serif',serif;padding:10px;font-size:1.2em}
+.path-references .views-row:hover .views-field-title{width:81%;position:absolute;top:0;left:34px}
+.path-references .views-row:hover img{border:5px solid #73941b;border-radius:50%}
 .block-views-blockreferences-block-reference ul{list-style:none;padding:0}
 .block-views-blockreferences-block-reference ul li{margin-bottom:30px}
 .page-node-type-reference .col-md-6 img{float:none!important}
