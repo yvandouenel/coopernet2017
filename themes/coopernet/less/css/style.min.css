@@ -1673,9 +1673,6 @@ h3.home_slide_title a p{margin:0;padding:0}
 #controleurs .selected_controleur{border:1px solid #fff;border-top:1px solid #739307;background-color:#CEF80F}
 @media screen and (min-width:1200px){.views-field.views-field-field-resume-ss{font-size:1.7em}
 }
-#div-news-home{background-color:#70ccd9;padding-bottom:40px}
-#div-news-home #news-coopernet-home{text-align:center}
-#div-news-home .views-row{background-color:#fff;opacity:.8;padding:10px;border-radius:6px;margin:0 0 20px;min-height:198px}
 @media screen and (min-width:1600px){#container-headband #logo-and-baseline h1#baseline{font-size:1.89em}
 }
 #container-headband #logo-and-baseline{padding-top:25px;padding-bottom:20px;display:table}
@@ -1814,3 +1811,12 @@ div.content>.field--name-body ol li:before{font-family:fontello;display:inline-b
 .path-formation .views-row{background-color:rgba(0,0,255,.1);padding:10px;border-radius:6px;margin:0 0 20px}
 .path-formation .views-row h3.title_training a{color:#ec5d6f}
 .path-formation .views-row .views-field-field-training-summary h3{color:#000;font-size:1.2em}
+#div-news-home{background-color:#70ccd9;padding-bottom:40px}
+#div-news-home #news-coopernet-home{text-align:center}
+#div-news-home .views-row{background-color:#fff;opacity:.8;padding:10px;border-radius:6px;margin:0 0 20px;min-height:198px}
+.path-news .views-row .views-field img{float:left;margin-right:30px;margin-bottom:25px}
+.path-news .views-row .views-field h3.title-view-news{clear:both}
+.path-news .views-row:after{display:block;content:'';clear:both;height:6px;background:url(../images/hr.png) repeat-x;border:0;margin-top:25px;margin-bottom:25px}
+.block-type-img-news{position:relative;height:270px}
+.block-type-img-news .field--name-field-news-type{position:absolute;width:480px;background-color:rgba(255,255,255,.9)}
+.block-type-img-news .field--name-field-news-type a{font-size:2em;display:block;text-align:center}
