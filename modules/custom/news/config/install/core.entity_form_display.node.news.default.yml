@@ -11,7 +11,7 @@ dependencies:
     - image.style.thumbnail
     - node.type.news
   module:
-    - image
+    - image_widget_crop
     - metatag
     - path
     - text
@@ -38,10 +38,16 @@ content:
   field_image_news:
     weight: 3
     settings:
-      progress_indicator: throbber
+      show_default_crop: true
+      warn_multiple_usages: true
       preview_image_style: thumbnail
+      crop_preview_image_style: crop_thumbnail
+      crop_list:
+        - 480_296
+      progress_indicator: throbber
+      show_crop_area: false
     third_party_settings: {  }
-    type: image_image
+    type: image_widget_crop
     region: content
   field_news_summary:
     weight: 1

@@ -8,6 +8,7 @@ dependencies:
     - field.field.node.news.field_news_type
     - field.field.node.news.field_news_url_redirect
     - field.field.node.news.field_referencement
+    - image.style.large
     - node.type.news
   module:
     - image
@@ -28,9 +29,9 @@ content:
     region: content
   field_image_news:
     weight: 102
-    label: above
+    label: hidden
     settings:
-      image_style: ''
+      image_style: large
       image_link: ''
     third_party_settings: {  }
     type: image
@@ -44,7 +45,7 @@ content:
     region: content
   field_news_type:
     weight: 103
-    label: above
+    label: hidden
     settings:
       link: true
     third_party_settings: {  }
@@ -68,5 +69,7 @@ content:
   links:
     weight: 100
     region: content
+    settings: {  }
+    third_party_settings: {  }
 hidden:
   langcode: true
