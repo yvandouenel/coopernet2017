@@ -1582,7 +1582,7 @@ ol,ul{padding-left:1.5em}
 .glyphicon,[class*=" icon-"]:before,[class^=icon-]:before{font-family:fontello;font-style:normal;font-weight:400;font-size:1em;speak:none;display:inline-block;text-decoration:inherit;width:1em;margin-right:10px;color:#777}
 .glyphicon{text-align:center;font-variant:normal;text-transform:none;line-height:1em}
 [class*=" icon-"]:before,[class^=icon-]:before{position:relative;top:1px;text-align:center;font-variant:normal;text-transform:none;line-height:1em;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}
-.contour-gris:before,.region-highlighted .div-block-home:before{font-style:normal;font-weight:400;speak:none;text-decoration:inherit;font-variant:normal;text-transform:none;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;top:-20px;left:20px;width:30px;text-align:center;line-height:1em}
+.contour-gris:before,.region-highlighted .div-block-home:before{font-style:normal;font-weight:400;speak:none;text-decoration:inherit;font-variant:normal;text-transform:none;line-height:1em;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;top:-20px;left:20px;width:30px;text-align:center}
 body{font-family:'Noticia Text',serif}
 h1,h2,h3,h4{font-family:'Bree Serif',serif}
 .padding-fifty{padding:50px!important}
@@ -1652,7 +1652,7 @@ h3.home_slide_title a p{margin:0;padding:0}
 #views_slideshow_cycle_div_slideshow-block_1_5 div.views-field-nothing{left:700px;top:249px}
 .views-field-nothing a{color:#739307;text-decoration:none;text-transform:uppercase;font-weight:700;font-size:.9em}
 .views-field-field-resume-ss a{color:#fff;text-decoration:none}
-.top-menu ul.menu li.first>a:before,button.navbar-toggle:before,div.content>.field--name-body ol li:before{font-style:normal;font-weight:400;speak:none;text-decoration:inherit;font-variant:normal;text-transform:none;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}
+.top-menu ul.menu li.first>a:before,button.navbar-toggle:before{font-style:normal;font-weight:400;speak:none;text-decoration:inherit;font-variant:normal;text-transform:none;line-height:1em;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}
 #previous_diapo,#views_slideshow_controls_text_previous_slideshow-block_1{position:absolute;top:114px;left:3px;z-index:9999}
 #previous_diapo,#views_slideshow_controls_text_previous_slideshow-block_1 a{width:62px;height:62px;display:block;background:url(../images/previous.png) no-repeat}
 #next_diapo,#views_slideshow_controls_text_next_slideshow-block_1{position:absolute;top:114px;right:8px;z-index:9999}
@@ -1695,7 +1695,7 @@ h3.home_slide_title a p{margin:0;padding:0}
 .top-menu ul.menu{display:table;float:right;margin-right:40px}
 .top-menu ul.menu li{display:table-cell}
 .top-menu ul.menu li>a{color:#FFF;display:block}
-.top-menu ul.menu li.first>a:before{position:relative;top:1px;font-family:fontello;display:inline-block;width:1em;margin-right:10px;text-align:center;line-height:1em;content:"\e809";color:#ec5d6f;font-size:1.6em}
+.top-menu ul.menu li.first>a:before{position:relative;top:1px;font-family:fontello;display:inline-block;width:1em;margin-right:10px;text-align:center;content:"\e809";color:#ec5d6f;font-size:1.6em}
 .top-menu ul.menu li.active>a,.top-menu ul.menu li:hover>a{color:#000;background-color:#70ccd9}
 .region.region-navigation{margin-top:20px}
 @media (max-width:992px){.region.region-navigation{margin-top:0}
@@ -1768,7 +1768,7 @@ ul.menu .dropdown-submenu.pull-left>.dropdown-menu{left:-100%}
 button.navbar-toggle{margin-right:0}
 }
 button.navbar-toggle{z-index:99;margin-top:-150px}
-button.navbar-toggle:before{position:relative;top:1px;font-family:fontello;display:inline-block;width:1em;margin-right:10px;text-align:center;line-height:1em;content:"\e854";font-size:2em;color:#000}
+button.navbar-toggle:before{position:relative;top:1px;font-family:fontello;display:inline-block;width:1em;margin-right:10px;text-align:center;content:"\e854";font-size:2em;color:#000}
 .under-clients{background-color:#f1f2f3}
 .under-clients img{margin-bottom:30px}
 .under-clients img.img-col1-home{margin:0 42px 30px 0}
@@ -1805,13 +1805,16 @@ body.page-node-8 h2.page-header{padding-left:100px;background:url(../images/icon
 .block-views-blockreferences-block-reference ul li{margin-bottom:30px}
 .page-node-type-reference .col-md-6 img{float:none!important}
 div.content>.field--name-body{font-size:1.6em;line-height:1.6em}
+#div-news-home .link-home-all-news:before,div.content>.field--name-body ol li:before{font-family:fontello;font-style:normal;font-weight:400;speak:none;text-decoration:inherit;width:1em;font-variant:normal;text-transform:none;line-height:1em;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;text-align:center}
 div.content>.field--name-body ol li{position:relative;padding-left:20px}
-div.content>.field--name-body ol li:before{font-family:fontello;display:inline-block;width:1em;margin-right:10px;text-align:center;line-height:1em;color:#777;content:'\e848';font-size:2.8em;position:absolute;left:-47px;top:-12px}
+div.content>.field--name-body ol li:before{display:inline-block;margin-right:10px;color:#777;content:'\e848';font-size:2.8em;position:absolute;left:-47px;top:-12px}
 #img-formateur{float:left;max-width:45%;margin-right:10px;margin-bottom:10px}
 .path-formation .views-row{background-color:rgba(0,0,255,.1);padding:10px;border-radius:6px;margin:0 0 20px}
 .path-formation .views-row h3.title_training a{color:#ec5d6f}
 .path-formation .views-row .views-field-field-training-summary h3{color:#000;font-size:1.2em}
 #div-news-home{background-color:#70ccd9;padding-bottom:40px}
+#div-news-home .link-home-all-news{font-size:.8em;display:block;text-align:center}
+#div-news-home .link-home-all-news:before{position:relative;top:1px;font-size:1em;display:inline-block;margin-right:10px;content:"\e840";color:#ec5d6f}
 #div-news-home #news-coopernet-home{text-align:center}
 #div-news-home .views-row{background-color:#fff;opacity:.8;padding:10px;border-radius:6px;margin:0 0 20px;min-height:198px}
 .path-news .views-row .views-field img{float:left;margin-right:30px;margin-bottom:25px}

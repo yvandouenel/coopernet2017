@@ -203,7 +203,7 @@
             {# Actualités #}
             {% if is_front %}
                 <div class="col-md-12">
-                    <h2 id="news-coopernet-home">Les news de coopernet !</h2>
+                    <h2 id="news-coopernet-home">Les news de coopernet ! </h2>
                 </div>
             {% endif %}
             {% if page.col_first %}
@@ -219,6 +219,11 @@
             {% if page.col_third %}
                 <div class="col-md-4">
                     {{ page.col_third }}
+                </div>
+            {% endif %}
+            {% if is_front %}
+                <div class="col-md-12">
+                    <h3><a class="link-home-all-news" href="/news">Voir toutes les actualités</a></h3>
                 </div>
             {% endif %}
         </div>
