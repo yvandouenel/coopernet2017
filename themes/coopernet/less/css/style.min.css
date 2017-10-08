@@ -1687,6 +1687,7 @@ h3.home_slide_title a p{margin:0;padding:0}
 #container-headband #block-bandeauaccueil .field--name-field-image>img{display:table;margin:0 auto}
 #container-headband #block-bandeauaccueil .field--name-body{position:absolute;left:55%;top:40px;font-family:'Bree Serif',serif;background-color:rgba(0,0,0,.1);padding:5px 10px;font-size:3em;color:#fff}
 @media (max-width:992px){#container-headband #block-bandeauaccueil .field--name-body{top:10px;left:20%;font-size:2em}
+.top-menu .col-md-6{padding:0}
 }
 @media (max-width:480px){#container-headband #block-bandeauaccueil .field--name-body{top:10px;left:20%;font-size:1.2em}
 }
@@ -1694,8 +1695,7 @@ h3.home_slide_title a p{margin:0;padding:0}
 .top-menu ul.menu{display:table;margin-right:40px}
 .top-menu ul.menu li{display:table-cell}
 .top-menu ul.menu li>a{color:#FFF;display:block}
-@media (max-width:768px){.top-menu .col-md-6{padding:0}
-.top-menu ul.menu li>a{padding:10px 7px}
+@media (max-width:768px){.top-menu ul.menu li>a{padding:10px 7px}
 }
 @media (min-width:992px){.top-menu ul.menu{float:right}
 .top-menu ul.menu li.first>a:before{position:relative;top:1px;font-family:fontello;font-style:normal;font-weight:400;speak:none;display:inline-block;text-decoration:inherit;width:1em;margin-right:10px;text-align:center;font-variant:normal;text-transform:none;line-height:1em;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;content:"\e809";color:#ec5d6f;font-size:1.6em}
