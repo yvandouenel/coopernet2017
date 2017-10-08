@@ -70,6 +70,11 @@
 }
 .top-menu {
   background-color: #2E2E2E;
+  .col-md-6 {
+    @media (max-width: @screen-sm) {
+      padding: 0;
+    }
+  }
   ul.menu {
     display: table;
     @media (min-width: @screen-md) {
@@ -82,6 +87,9 @@
       > a {
         color: #FFF;
         display: block;
+        @media (max-width: @screen-sm) {
+          padding: 10px 7px;
+        }
       }
       &.first {
         > a:before {
