@@ -68,12 +68,14 @@
     }
   }
 }
-
 .top-menu {
   background-color: #2E2E2E;
   ul.menu {
     display: table;
-    float: right;
+    @media (min-width: @screen-md) {
+      float: right;
+    }
+
     margin-right: 40px;
     li {
       display: table-cell;
@@ -83,10 +85,12 @@
       }
       &.first {
         > a:before {
-          .glyphicon();
-          content: "\e809";
-          color: @rouge-coopernet;
-          font-size: 1.6em;
+          @media (min-width: @screen-md) {
+            .glyphicon();
+            content: "\e809";
+            color: @rouge-coopernet;
+            font-size: 1.6em;
+          }
         }
       }
     }

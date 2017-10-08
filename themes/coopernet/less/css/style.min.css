@@ -1582,7 +1582,7 @@ ol,ul{padding-left:1.5em}
 .glyphicon,[class*=" icon-"]:before,[class^=icon-]:before{font-family:fontello;font-style:normal;font-weight:400;font-size:1em;speak:none;display:inline-block;text-decoration:inherit;width:1em;margin-right:10px;color:#777}
 .glyphicon{text-align:center;font-variant:normal;text-transform:none;line-height:1em}
 [class*=" icon-"]:before,[class^=icon-]:before{position:relative;top:1px;text-align:center;font-variant:normal;text-transform:none;line-height:1em;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}
-.contour-gris:before,.region-highlighted .div-block-home:before{font-style:normal;font-weight:400;speak:none;text-decoration:inherit;font-variant:normal;text-transform:none;line-height:1em;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;top:-20px;left:20px;width:30px;text-align:center}
+.contour-gris:before,.region-highlighted .div-block-home:before{font-weight:400;text-decoration:inherit;text-transform:none;top:-20px;left:20px;width:30px;text-align:center;font-style:normal;speak:none;font-variant:normal;line-height:1em;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}
 body{font-family:'Noticia Text',serif}
 h1,h2,h3,h4{font-family:'Bree Serif',serif}
 .padding-fifty{padding:50px!important}
@@ -1652,7 +1652,6 @@ h3.home_slide_title a p{margin:0;padding:0}
 #views_slideshow_cycle_div_slideshow-block_1_5 div.views-field-nothing{left:700px;top:249px}
 .views-field-nothing a{color:#739307;text-decoration:none;text-transform:uppercase;font-weight:700;font-size:.9em}
 .views-field-field-resume-ss a{color:#fff;text-decoration:none}
-.top-menu ul.menu li.first>a:before,button.navbar-toggle:before{font-style:normal;font-weight:400;speak:none;text-decoration:inherit;font-variant:normal;text-transform:none;line-height:1em;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}
 #previous_diapo,#views_slideshow_controls_text_previous_slideshow-block_1{position:absolute;top:114px;left:3px;z-index:9999}
 #previous_diapo,#views_slideshow_controls_text_previous_slideshow-block_1 a{width:62px;height:62px;display:block;background:url(../images/previous.png) no-repeat}
 #next_diapo,#views_slideshow_controls_text_next_slideshow-block_1{position:absolute;top:114px;right:8px;z-index:9999}
@@ -1692,10 +1691,12 @@ h3.home_slide_title a p{margin:0;padding:0}
 @media (max-width:480px){#container-headband #block-bandeauaccueil .field--name-body{top:10px;left:20%;font-size:1.2em}
 }
 .top-menu{background-color:#2E2E2E}
-.top-menu ul.menu{display:table;float:right;margin-right:40px}
+.top-menu ul.menu{display:table;margin-right:40px}
 .top-menu ul.menu li{display:table-cell}
 .top-menu ul.menu li>a{color:#FFF;display:block}
-.top-menu ul.menu li.first>a:before{position:relative;top:1px;font-family:fontello;display:inline-block;width:1em;margin-right:10px;text-align:center;content:"\e809";color:#ec5d6f;font-size:1.6em}
+@media (min-width:992px){.top-menu ul.menu{float:right}
+.top-menu ul.menu li.first>a:before{position:relative;top:1px;font-family:fontello;font-style:normal;font-weight:400;speak:none;display:inline-block;text-decoration:inherit;width:1em;margin-right:10px;text-align:center;font-variant:normal;text-transform:none;line-height:1em;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;content:"\e809";color:#ec5d6f;font-size:1.6em}
+}
 .top-menu ul.menu li.active>a,.top-menu ul.menu li:hover>a{color:#000;background-color:#70ccd9}
 .region.region-navigation{margin-top:20px}
 @media (max-width:992px){.region.region-navigation{margin-top:0}
@@ -1768,7 +1769,7 @@ ul.menu .dropdown-submenu.pull-left>.dropdown-menu{left:-100%}
 button.navbar-toggle{margin-right:0}
 }
 button.navbar-toggle{z-index:99;margin-top:-150px}
-button.navbar-toggle:before{position:relative;top:1px;font-family:fontello;display:inline-block;width:1em;margin-right:10px;text-align:center;content:"\e854";font-size:2em;color:#000}
+button.navbar-toggle:before{position:relative;top:1px;font-family:fontello;font-style:normal;font-weight:400;speak:none;display:inline-block;text-decoration:inherit;width:1em;margin-right:10px;text-align:center;font-variant:normal;text-transform:none;line-height:1em;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;content:"\e854";font-size:2em;color:#000}
 .under-clients{background-color:#f1f2f3}
 .under-clients img{margin-bottom:30px}
 .under-clients img.img-col1-home{margin:0 42px 30px 0}
